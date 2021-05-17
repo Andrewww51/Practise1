@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: green;
+}
+
+.container {
+    max-width: 1200px;
+    height: 400px;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rebeccapurple;
+}
+
+.item:first-child {
+    flex-basis: 100%;
+    background-color: greenyellow;
+}
+
+.item {
+    padding: 10px;
+    background-color: blue;
+    flex-grow: 1;
+    flex-basis: 200px;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
